@@ -1,0 +1,81 @@
+
+
+html{
+    margin: 0;
+    padding:0;
+    width: 100%
+}
+
+body{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(imagens/wallpaperdto.jpg);
+    background-size: auto;
+    display: table;   
+}
+
+nav{
+    text-align: center
+}
+
+.nav{
+    height: 82px;
+}
+
+ul{
+    margin:200px auto;
+    width: 800px;
+    height: 50px;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.507)
+}
+
+li{
+    margin-top: 26px;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    transition: 0.5s;
+    padding: 25px 30px;
+
+}
+
+li a:hover{
+
+    transition:0.5s;
+    color:white;
+    font-weight: bold;
+    background-color: rgba(46, 10, 10, 0.247);
+
+}
+
+.cont-titulo{
+    padding-top: 50px;
+    color:white;
+    text-align: center;
+    background-color: rgba(82, 15, 15, 0.247);
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.texto1{
+    color: white;
+    width: 50vh;
+    height: auto;
+    margin-left: 50px;
+    background-color: rgba(165, 42, 42, 0.233);
+}
+
+.texto1 p {
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+}
